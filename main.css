@@ -2,13 +2,24 @@ body {
     background-color: #1c1c1c;
     color: #ffffff;
     font-family: monospace;
-    padding: 24px;
+    padding: 24=px;
+    
 }
 
 .title {
     font-size: 48px;
     color: #00ff7f;
-    
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+
+}
+.subtitle{
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+.title .subtitle{
+    text-align: center;
 }
 
 .list-item{

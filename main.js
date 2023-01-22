@@ -14,4 +14,14 @@ function addNewTask(){
     listItem.appendChild(textElement);
     list.appendChild(listItem);
 
+    var text = document.getElementById("task_name").value='';
+}
+
+function subliTask(){
+    var list = document.getElementById("list");
+
+    list.onclick = function(){
+        list.style = "text-decoration: line-through";
+    };
+
 }
