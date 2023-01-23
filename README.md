@@ -25,7 +25,7 @@ JavaScript<br>
     * `main.js`
 
 ### Como funciona a estrutura do JavaScript?
-``` ~~~javascript
+```javascript
 function addNewTask(){
     var list = document.getElementById("list");
     var text = document.getElementById("task_name").value;
